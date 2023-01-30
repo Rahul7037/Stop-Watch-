@@ -2,7 +2,11 @@ body{
     padding: 0;
     margin: 0;
     font-family: verdana;
-    /* background-color: black; */
+    background-image: url('https://www.shutterstock.com/image-vector/time-background-blue-260nw-260884532.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .container{
@@ -13,7 +17,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
     /* margin: auto;
     margin-top: 140px;
     height: 300px;
@@ -36,9 +40,13 @@ body{
 
 #buttons{
     margin-top: 30px;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
 }
 .btn{
-    width: 100px;
+    width: 100%;
     padding: 10px 15px;
     margin: 0px 20px;
     border: 1px solid black;
